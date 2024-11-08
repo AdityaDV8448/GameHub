@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Game Hub - Play popular games like Tic Tac Toe, 2048, Snake, Chess, and more.">
+    <title>Game Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white p-4 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Game Hub</h1>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="container mx-auto py-8">
+      <section class="mb-8">
+        <h2 class="text-3xl font-bold mb-4 text-center">Popular Games</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Game Card 1: Tic Tac Toe -->
+          <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <img alt="Screenshot of Tic Tac Toe game" class="w-full h-48 object-cover rounded-t-lg" src="https://storage.googleapis.com/a1aa/image/EuelcMf8QeNTdJa7dT7DYup0vui6SAKjBzkcv8cxHU4oCf7OB.jpg" />
+            <h3 class="text-xl font-bold mt-4">Tic Tac Toe</h3>
+            <p class="mt-2">Play the classic Tic Tac Toe game. Challenge your friends or play against the computer.</p>
+            <a class="block mt-4 text-blue-500 hover:underline" href="https://playtictactoe.org/" target="_blank">Play Now</a>
+          </div>
+
+          <!-- Game Card 2: 2048 -->
+          <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <img alt="Screenshot of 2048 game" class="w-full h-48 object-cover rounded-t-lg" src="https://storage.googleapis.com/a1aa/image/ZfOSLjJUNcSaAiA3s7xHCe0ZfLNVwcX9ryMODIjh3Em8Cf7OB.jpg" />
+            <h3 class="text-xl font-bold mt-4">2048</h3>
+            <p class="mt-2">Join the numbers and get to the 2048 tile! A fun and addictive puzzle game.</p>
+            <a class="block mt-4 text-blue-500 hover:underline" href="https://2048game.com/" target="_blank">Play Now</a>
+          </div>
+
+          <!-- Game Card 3: Snake -->
+          <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <img alt="Screenshot of Snake game" class="w-full h-48 object-cover rounded-t-lg" src="https://storage.googleapis.com/a1aa/image/Ho8ptySWAQb6Ex7dD4jd2EP6VQKptu98XCChiZAVGG4X4v7E.jpg" />
+            <h3 class="text-xl font-bold mt-4">Snake</h3>
+            <p class="mt-2">Control the snake and eat the food to grow. Avoid hitting the walls or yourself!</p>
+            <a class="block mt-4 text-blue-500 hover:underline" href="https://playsnake.org/" target="_blank">Play Now</a>
+          </div>
+
+          <!-- Game Card 4: Minesweeper -->
+          <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <img alt="Screenshot of Minesweeper game" class="w-full h-48 object-cover rounded-t-lg" src="https://storage.googleapis.com/a1aa/image/xOkJAtnUNEpxJtpHI1IgNfGoam0wX7A0772yto3On7xwwfuTA.jpg" />
+            <h3 class="text-xl font-bold mt-4">Minesweeper</h3>
+            <p class="mt-2">Find all the mines without triggering any of them. A classic puzzle game.</p>
+            <a class="block mt-4 text-blue-500 hover:underline" href="https://minesweeper.online/" target="_blank">Play Now</a>
+          </div>
+
+          <!-- Game Card 5: Sudoku -->
+          <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <img alt="Screenshot of Sudoku game" class="w-full h-48 object-cover rounded-t-lg" src="https://storage.googleapis.com/a1aa/image/ymw3QI0yG3aHM9ye8kweeOeMxesczSopuNFghmYmatrPL83dC.jpg" />
+            <h3 class="text-xl font-bold mt-4">Sudoku</h3>
+            <p class="mt-2">Fill the grid with numbers so that every row, column, and 3x3 box contains the digits 1 to 9.</p>
+            <a class="block mt-4 text-blue-500 hover:underline" href="https://sudoku.com/" target="_blank">Play Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white p-4 mt-8">
+      <div class="container mx-auto text-center">
+        <p>© 2023 Game Hub. All rights reserved.</p>
+        <div class="mt-4">
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
